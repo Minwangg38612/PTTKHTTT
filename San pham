@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sản phẩm | Shoes</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="image/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<section class="site-wrap">
+<header class="site-header">
+  <div class="logo"><h1>Shoes<span>VN</span></h1></div>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index.html" class="nav-link">Trang chủ</a></li>
+      <li><a href="products.html" class="nav-link">Sản phẩm</a></li>
+      <li><a href="about.html" class="nav-link">Giới thiệu</a></li>
+      <li><a href="reviews.html" class="nav-link">Đánh giá</a></li>
+      <li><a href="services.html" class="nav-link">Dịch vụ</a></li>
+      <li><a href="login.html" class="nav-link">Đăng nhập</a></li>
+    </ul>
+  </nav>
+  <div class="quick-icons">
+    <a href="wishlist.html" aria-label="Yêu thích"><i class="fa-solid fa-heart"></i></a>
+    <a href="cart.html" aria-label="Giỏ hàng"><i class="fa-solid fa-cart-shopping"></i></a>
+    <a href="login.html" aria-label="Tài khoản"><i class="fa-solid fa-user"></i></a>
+  </div>
+</header>
+<main class="page">
+
+<section class="section-head"><h2>Sản phẩm</h2></section>
+<section class="grid products-grid">
+  <!-- 1 -->
+  <article class="card">
+    <figure><img src="image/shoes1.png" alt="Nike kobe IX 9 Elite Em Bruce Lee"></figure>
+    <h3>Nike kobe IX 9 Elite Em Bruce Lee</h3>
+    <p class="desc">Thiết kế năng động, bề mặt thoáng khí, đế êm ái.</p>
+    <p class="price">2.450.000₫</p>
+    <p style="display:flex;gap:8px;flex-wrap:wrap">
+      <a class="btn add-to-cart" href="#"
+         data-id="p1" data-name="NIKE Mẫu 1" data-price="2450000" data-img="image/shoes1.png">Thêm vào giỏ</a>
+      <a class="btn add-to-wishlist" href="#"
+         data-id="p1" data-name="NIKE Mẫu 1" data-price="2450000" data-img="image/shoes1.png" style="background:#999">Yêu thích</a>
+    </p>
+  </article>
+  <!-- 2 -->
+  <article class="card">
+    <figure><img src="image/shoes2.png" alt="Nike KD 9 Mic Drop"></figure>
+    <h3>Nike KD 9 Mic Drop</h3>
+    <p class="desc">Chạy bộ ổn định, hỗ trợ cổ chân, phù hợp đường dài.</p>
+    <p class="price">4.690.000₫</p>
+    <p style="display:flex;gap:8px;flex-wrap:wrap">
+      <a class="btn add-to-cart" href="#"
+         data-id="p2" data-name="NIKE Mẫu 2" data-price="4690000" data-img="image/shoes2.png">Thêm vào giỏ</a>
+      <a class="btn add-to-wishlist" href="#"
+         data-id="p2" data-name="NIKE Mẫu 2" data-price="4690000" data-img="image/shoes2.png" style="background:#999">Yêu thích</a>
+    </p>
+  </article>
+  <!-- 3 -->
+  <article class="card">
+    <figure><img src="image/shoes3.png" alt="Nike Air Zoom Structure 20"></figure>
+    <h3>Nike Air Zoom Structure 20</h3>
+    <p class="desc">Phong cách streetwear, phối đồ dễ dàng, bền bỉ.</p>
+    <p class="price">3.990.000₫</p>
+    <p style="display:flex;gap:8px;flex-wrap:wrap">
+      <a class="btn add-to-cart" href="#"
+         data-id="p3" data-name="NIKE Mẫu 3" data-price="3990000" data-img="image/shoes3.png">Thêm vào giỏ</a>
+      <a class="btn add-to-wishlist" href="#"
+         data-id="p3" data-name="NIKE Mẫu 3" data-price="3990000" data-img="image/shoes3.png" style="background:#999">Yêu thích</a>
+    </p>
+  </article>
+  <!-- 4 -->
+  <article class="card">
+    <figure><img src="image/shoes4.png" alt="Nike Air Max 2015 Obsidian"></figure>
+    <h3>Nike Air Max 2015 Obsidian</h3>
+    <p class="desc">Đệm khí êm chân, hỗ trợ vận động cường độ cao.</p>
+    <p class="price">2.890.000₫</p>
+    <p style="display:flex;gap:8px;flex-wrap:wrap">
+      <a class="btn add-to-cart" href="#"
+         data-id="p4" data-name="NIKE Mẫu 4" data-price="2890000" data-img="image/shoes4.png">Thêm vào giỏ</a>
+      <a class="btn add-to-wishlist" href="#"
+         data-id="p4" data-name="NIKE Mẫu 4" data-price="2890000" data-img="image/shoes4.png" style="background:#999">Yêu thích</a>
+    </p>
+  </article>
+  <!-- 5 -->
+  <article class="card">
+    <figure><img src="image/shoes5.png" alt="Nike Air Huarache Ultra"></figure>
+    <h3>Nike Air Huarache Ultra</h3>
+    <p class="desc">Trải nghiệm linh hoạt, nhẹ, bám tốt nhiều bề mặt.</p>
+    <p class="price">3.450.000₫</p>
+    <p style="display:flex;gap:8px;flex-wrap:wrap">
+      <a class="btn add-to-cart" href="#"
+         data-id="p5" data-name="NIKE Mẫu 5" data-price="3450000" data-img="image/shoes5.png">Thêm vào giỏ</a>
+      <a class="btn add-to-wishlist" href="#"
+         data-id="p5" data-name="NIKE Mẫu 5" data-price="3450000" data-img="image/shoes5.png" style="background:#999">Yêu thích</a>
+    </p>
+  </article>
+  <!-- 6 -->
+  <article class="card">
+    <figure><img src="image/shoes6.png" alt="Nike Free RN Bright Mango"></figure>
+    <h3>NIKE Mẫu 6</h3>
+    <p class="desc">Thời trang hàng ngày, êm và thoáng cho cả ngày dài.</p>
+    <p class="price">5.190.000₫</p>
+    <p style="display:flex;gap:8px;flex-wrap:wrap">
+      <a class="btn add-to-cart" href="#"
+         data-id="p6" data-name="NIKE Mẫu 6" data-price="5190000" data-img="image/shoes6.png">Thêm vào giỏ</a>
+      <a class="btn add-to-wishlist" href="#"
+         data-id="p6" data-name="NIKE Mẫu 6" data-price="5190000" data-img="image/shoes6.png" style="background:#999">Yêu thích</a>
+    </p>
+  </article>
+  <!-- 7 -->
+  <article class="card">
+    <figure><img src="image/shoes.png" alt="NIKE Mẫu 7"></figure>
+    <h3>Nike Air Structure 20</h3>
+    <p class="desc">Tối giản hiện đại, phù hợp nhiều phong cách.</p>
+    <p class="price">2.590.000₫</p>
+    <p style="display:flex;gap:8px;flex-wrap:wrap">
+      <a class="btn add-to-cart" href="#"
+         data-id="p7" data-name="NIKE Mẫu 7" data-price="2590000" data-img="image/shoes.png">Thêm vào giỏ</a>
+      <a class="btn add-to-wishlist" href="#"
+         data-id="p7" data-name="NIKE Mẫu 7" data-price="2590000" data-img="image/shoes.png" style="background:#999">Yêu thích</a>
+    </p>
+  </article>
+  <!-- 8 -->
+  <article class="card">
+    <figure><img src="image/shoes7.png" alt="NIKE Mẫu 8"></figure>
+    <h3>Nike Air Max 90 Toggle Younger Kids</h3>
+    <p class="desc">Màu sắc nổi bật, thích hợp dạo phố và du lịch.</p>
+    <p class="price">3.450.000₫</p>
+    <p style="display:flex;gap:8px;flex-wrap:wrap">
+      <a class="btn add-to-cart" href="#"
+         data-id="p8" data-name="NIKE Mẫu 8" data-price="3450000" data-img="image/shoes7.png">Thêm vào giỏ</a>
+      <a class="btn add-to-wishlist" href="#"
+         data-id="p8" data-name="NIKE Mẫu 8" data-price="3450000" data-img="image/shoes7.png" style="background:#999">Yêu thích</a>
+    </p>
+  </article>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="footer-columns">
+    <div class="col">
+      <h3>Liên hệ</h3>
+      <p><i class="fa-solid fa-house"></i> 123 Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh</p>
+      <p><i class="fa-solid fa-phone"></i> +84 28 1234 5678</p>
+      <p><i class="fa-solid fa-envelope"></i> support@giayvn.vn</p>
+    </div>
+    <div class="col">
+      <h3>Hỗ trợ</h3>
+      <ul>
+        <li><a href="#">Câu hỏi thường gặp</a></li>
+        <li><a href="#">Giao hàng</a></li>
+        <li><a href="#">Đổi trả</a></li>
+        <li><a href="#">Phương thức thanh toán</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <h3>Cửa hàng</h3>
+      <ul>
+        <li><a href="#">Hồ Chí Minh</a></li>
+        <li><a href="#">Hà Nội</a></li>
+        <li><a href="#">Đà Nẵng</a></li>
+        <li><a href="#">Cần Thơ</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <h3>Kết nối</h3>
+      <p class="socials">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      </p>
+      <h3>Bản tin</h3>
+      <form class="newsletter" action="#" method="get">
+        <input type="email" placeholder="Nhập email của bạn" aria-label="email">
+        <button type="submit">Đăng ký</button>
+      </form>
+    </div>
+  </div>
+</footer>
+</section>
+<script src="app.js" defer></script>
+</body>
+</html>
