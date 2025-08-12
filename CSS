@@ -1,0 +1,81 @@
+/* === Giao diện tổng thể === */
+:root{--brand:#e67e22;--ink:#130f40}
+*{font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,'Apple Color Emoji','Segoe UI Emoji'; margin:0; padding:0; box-sizing:border-box}
+a{text-decoration:none}
+img{max-width:100%; display:block}
+body{background:#fff;color:var(--ink)}
+
+/* Khung trang */
+.site-wrap{min-height:100dvh;display:flex;flex-direction:column}
+.site-header{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1rem 2rem;position:sticky;top:0;background:#fff;z-index:10;border-bottom:1px solid #f0f0f0}
+.logo h1{font-weight:700;color:var(--ink)} .logo span{color:var(--brand)}
+.main-nav ul{display:flex;gap:.5rem;list-style:none;margin:0;padding:0}
+.main-nav a{padding:.5rem .9rem;border-radius:999px;color:var(--ink)}
+.main-nav a.active{background:var(--ink);color:#fff}
+.quick-icons a{margin-left:.6rem;color:var(--ink);position:relative}
+.quick-icons a span.badge{position:absolute;top:-8px;right:-10px;background:var(--brand);color:#fff;padding:2px 6px;border-radius:999px;font-size:12px;line-height:1}
+.page{flex:1}
+
+/* Hero */
+.hero{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:1rem;padding:2rem}
+.hero .btn{margin-top:.8rem}
+.hero-image img{width:100%;height:auto}
+.badges{display:flex;gap:.8rem;justify-content:center;padding:1rem}
+
+/* Sections & grid */
+.section-head{padding:2rem 2rem 0}
+.grid{display:grid;gap:1.2rem;padding:1.2rem 2rem}
+.card,.service-card,.review-card{border:1px solid #eee;border-radius:1rem;padding:1rem;box-shadow:0 .5rem 1.5rem rgba(0,0,0,.05);background:#fff}
+.card figure,.about-gallery figure{display:block;overflow:hidden;border-radius:.8rem;margin:0 0 .8rem}
+.price{font-weight:600;margin:.25rem 0 1rem}
+.btn{display:inline-block;padding:.7rem 1.2rem;border-radius:999px;background:var(--brand);color:#fff}
+
+/* Products grid: mobile 1, tablet 2, desktop 4 */
+.products-grid{
+  display:grid;
+  gap:1.2rem;
+  padding:1.2rem 2rem;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 640px){
+  .products-grid{ grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1024px){
+  .products-grid{ grid-template-columns: repeat(4, 1fr); }
+}
+
+/* About */
+.about-wrap{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;padding:1.5rem 2rem}
+.thumbs{display:flex;gap:.5rem;margin-top:.5rem;opacity:.9}
+.thumbs img{cursor:pointer;border:1px solid #eee;border-radius:8px}
+
+/* Reviews */
+.reviews-grid{grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+
+/* Login */
+.login-wrap{display:grid;grid-template-columns:1fr 1fr;gap:2rem;padding:2rem}
+.login-form{display:grid;gap:.8rem;align-content:start}
+.login-form label{display:grid;gap:.4rem}
+.login-form input{padding:.6rem .8rem;border:1px solid #ddd;border-radius:8px}
+.oauth{display:flex;gap:1rem;align-items:center}
+
+/* Placeholder */
+.placeholder{padding:2rem;text-align:center}
+
+/* Cart */
+.cart-root table{width:100%;border-collapse:collapse}
+.cart-root table th, .cart-root table td { border-bottom:1px solid #f1f1f1 }
+.cart-root table td, .cart-root table th { padding:12px }
+.cart-root .qty-input{width:64px;padding:6px;border:1px solid #ddd;border-radius:6px}
+
+/* Footer */
+.site-footer{padding:2rem;background:#f7f7f7;border-top:1px solid #eee}
+.footer-columns{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem}
+.footer-columns .col ul{list-style:none;padding:0;margin:0}
+.footer-columns .col a{color:var(--ink)}
+
+/* Responsive */
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr}
+  .about-wrap,.login-wrap{grid-template-columns:1fr}
+}
